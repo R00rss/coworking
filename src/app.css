@@ -1,0 +1,40 @@
+/* Box sizing rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color-900: #fb923c;
+  --primary-color-700: #ffd1ac;
+  --secondary-color-900: #27264362;
+  --light-color-900: #ffffff;
+  --dark-color-900: #000000;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: var(--primary-color-900) var(--light-color-900);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+ /* *::-webkit-scrollbar-track {
+  background: var(--primary-color-900);
+} */
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color-900);
+  border-radius: 20px;
+  border: 3px solid  var(--light-color-900);
+} 
