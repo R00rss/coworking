@@ -1,7 +1,7 @@
 <script>
   import Carousel from "svelte-carousel";
   import { browser } from "$app/environment";
-  import { images } from "../../constants/images";
+  import { main_images as images } from "../../constants/images";
 </script>
 
 {#if browser}

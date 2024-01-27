@@ -9,7 +9,7 @@
   >
     <h1 class="w-[1200px]">Contáctanos</h1>
   </section>
-  <section class="flex justify-center items-center gap-2 p-2 w-[min(1200px,90%)] mx-auto">
+  <section class="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-2 p-2 w-[min(1200px,90%)] mx-auto">
     <FormContact />
     <Matriz />
   </section>

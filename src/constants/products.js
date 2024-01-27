@@ -1,3 +1,4 @@
+import { products_images } from './images'
 export class Product {
 
     /**
@@ -28,24 +29,15 @@ export const products = [
         description:
             "Utiliza la direccion del coworking. Recibimos tus paquetes y tendrás acceso a las salas de reuniones",
         price: 70,
-        image:
-            "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp",
+        image: products_images.reunion1_1,
         products: [
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.reunion1_2
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.reunion1_3
             }
         ]
     },
@@ -57,24 +49,20 @@ export const products = [
             "Un cubículo para una persona con todos los beneficios mencionados",
         price: 120,
         image:
-            "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp",
+            products_images.cubiculo1_1,
         products: [
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo1_1
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo1_2
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.reunion1_2
             },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            }
         ]
     },
     {
@@ -85,24 +73,28 @@ export const products = [
             "Una oficina para dos personas con todos los beneficios antes mencionados",
         price: 200,
         image:
-            "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp",
+            products_images.cubiculo2_1,
         products: [
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo2_2
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo2_2
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo2_3
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            }
+                image: products_images.cubiculo2_4
+            },
+            {
+                id: crypto.randomUUID(),
+                image: products_images.reunion1_2
+            },
         ]
     },
     {
@@ -113,53 +105,32 @@ export const products = [
         description:
             "Una oficina para tres personas con todos los beneficios antes mencionados",
         price: 250,
-        image:
-            "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp",
+        image: products_images.cubiculo3_1,
         products: [
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo3_1
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo3_2
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
+                image: products_images.cubiculo3_3
             },
             {
                 id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            }
+                image: products_images.cubiculo3_4
+            },
+            {
+                id: crypto.randomUUID(),
+                image: products_images.cubiculo3_5
+            },
+            {
+                id: crypto.randomUUID(),
+                image: products_images.reunion1_2
+            },
         ]
-    },
-    {
-        id: crypto.randomUUID(),
-        title: "Oficina para 4 - 5 personas",
-        subtitle: "Coworking Quito",
-        description:
-            "Una oficina para cinco personas con todos los beneficios antes mencionados",
-        price: 300,
-        image:
-            "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp",
-        products: [
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            },
-            {
-                id: crypto.randomUUID(),
-                image: "https://www.spacecowork.net/wp-content/uploads/2024/01/PLATAFORMA-3-scaled.webp"
-            }
-        ]
-    },
+    }
 ];
