@@ -10,7 +10,6 @@
   let dialogElement;
 
   function openPopup() {
-    alert("open");
     if (dialogElement) dialogElement.showModal();
   }
 
