@@ -40,8 +40,8 @@
         </button>
       {/each}
     </ul>
-    <section class="group flex flex-col gap-4 relative py-9 w-[70px] justify-center items-center">
-      <button type="button" class="flex sm:hidden">
+    <section class="group flex-col flex sm:hidden gap-4 relative py-9 w-[70px] justify-center items-center">
+      <button type="button" class="">
         <img class="h-6 w-6" src={menu_burger} alt="menu burger" />
       </button>
       <ul class="group-hover:flex hidden flex-col gap-1 justify-center items-center p-2 rounded-b-lg  duration-300 absolute center top-full bg-[var(--light-color-900)]">
