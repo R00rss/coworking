@@ -29,7 +29,12 @@
 </script>
 
 <section class="shadow-[2px_2px_10px_-6px_#000000] w-full">
-  <img class="w-full max-h-[400px]" src={headerImage} alt="headerImage" />
+  <img
+    loading="lazy"
+    class="w-full max-h-[400px]"
+    src={headerImage}
+    alt="headerImage"
+  />
   <form
     id="contact-form"
     on:submit|preventDefault={onSubmit}
@@ -62,7 +67,7 @@
       placeholder="Quiero un espacio de trabajo!"
       required
     ></textarea>
-    <section class="flex justify-center items-center gap-2 pt-4">
+    <section class="flex flex-col lg:flex-row justify-center items-center gap-2 pt-4 w-full">
       <Dashes />
       <button
         class=" bg-orange-400 border border-transparent hover:border-orange-400 hover:text-orange-400 hover:bg-transparent duration-300 px-2 py-1 w-[170px] text-[var(--light-color-900)] font-semibold rounded-full"

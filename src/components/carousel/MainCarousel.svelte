@@ -5,19 +5,23 @@
 </script>
 
 {#if browser}
-  <section id="home"  class="relative montserrat">
+  <section id="home" class="relative montserrat">
     <section class="main_title">
-      <h1 class="text-5xl font-semibold drop-shadow-[1px_1px_5px_var(--dark-color-900)]">El mejor Coworking en Quito</h1>
-      <h2 class="text-xl text-[var(--primary-color-900)] font-medium drop-shadow-[1px_1px_5px_var(--dark-color-900)]">Oficinas coworking en Quito</h2>
+      <h1
+        class="text-5xl font-semibold drop-shadow-[1px_1px_5px_var(--dark-color-900)]"
+      >
+        El mejor Coworking en Quito
+      </h1>
+      <h2
+        class="text-xl text-[var(--primary-color-900)] font-medium drop-shadow-[1px_1px_5px_var(--dark-color-900)]"
+      >
+        Oficinas coworking en Quito
+      </h2>
     </section>
-    <Carousel
-     autoplay
-     autoplayDuration={2000}
-     arrows={false}
-     dots={false}
-     >
+    <Carousel autoplay autoplayDuration={2000} arrows={false} dots={false}>
       {#each images as image}
         <img
+          loading="lazy"
           class="w-full h-[800px] object-cover"
           src={image}
           alt="images"

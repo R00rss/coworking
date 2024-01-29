@@ -22,13 +22,12 @@
 <section
   class="flex flex-col justify-start items-center shadow-[2px_2px_10px_-6px_#000000] min-h-[400px] min-w-[350px] w-[350px] aspect-[2/3] 2xl:min-w-[380px] 2xl:w-[380px]"
 >
-
-<!-- handle onclick and touch event -->
   <button
     on:click={openPopup}
     class="group relative overflow-hidden cursor-pointer w-full"
   >
     <img
+      loading="lazy"
       class="cursor-pointer hover:scale-105 duration-300"
       src={image}
       alt={title}
@@ -43,7 +42,7 @@
       >
     </section>
     <span
-      class="absolute rounded-[0px_12px_0px_0px] bottom-0 bg-orange-400 text-[var(--light-color-900)] py-1 px-2 group-hover:animate-pulse duration-300
+      class="absolute rounded-[0px_12px_0px_0px] bottom-0 left-0 bg-orange-400 text-[var(--light-color-900)] py-1 px-2 group-hover:animate-pulse duration-300
   "
     >
       Fotos
@@ -82,6 +81,7 @@
           on:click={closePopup}
         >
           <img
+            loading="lazy"
             class="w-full h-full object-contain invert"
             src={close_icon}
             alt="close icon"
