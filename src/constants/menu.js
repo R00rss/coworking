@@ -1,16 +1,16 @@
 export const items = [
     {
-        id: crypto.randomUUID(),
+        id: 1,
         href: "#home",
         name: "Inicio",
     },
     {
-        id: crypto.randomUUID(),
+        id: 2,
         href: "#products",
         name: "Productos",
     },
     {
-        id: crypto.randomUUID(),
+        id: 3,
         href: "#contact",
         name: "Contáctanos",
     },

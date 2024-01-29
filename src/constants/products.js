@@ -23,7 +23,7 @@ export class Product {
 
 export const products = [
     {
-        id: crypto.randomUUID(),
+        id: 1,
         title: "Plan virtual",
         subtitle: "Coworking Quito",
         description:
@@ -32,17 +32,17 @@ export const products = [
         image: products_images.reunion1_1,
         products: [
             {
-                id: crypto.randomUUID(),
+                id: 11,
                 image: products_images.reunion1_2
             },
             {
-                id: crypto.randomUUID(),
+                id: 12,
                 image: products_images.reunion1_3
             }
         ]
     },
     {
-        id: crypto.randomUUID(),
+        id: 2,
         title: "Espacios personales de trabajo",
         subtitle: "Coworking Quito",
         description:
@@ -52,21 +52,21 @@ export const products = [
             products_images.cubiculo1_1,
         products: [
             {
-                id: crypto.randomUUID(),
+                id: 21,
                 image: products_images.cubiculo1_1
             },
             {
-                id: crypto.randomUUID(),
+                id: 22,
                 image: products_images.cubiculo1_2
             },
             {
-                id: crypto.randomUUID(),
+                id: 23,
                 image: products_images.reunion1_2
             },
         ]
     },
     {
-        id: crypto.randomUUID(),
+        id: 3,
         title: "Oficina para dos personas",
         subtitle: "Coworking Quito",
         description:
@@ -76,29 +76,29 @@ export const products = [
             products_images.cubiculo2_1,
         products: [
             {
-                id: crypto.randomUUID(),
+                id: 31,
                 image: products_images.cubiculo2_2
             },
             {
-                id: crypto.randomUUID(),
+                id: 32,
                 image: products_images.cubiculo2_2
             },
             {
-                id: crypto.randomUUID(),
+                id: 33,
                 image: products_images.cubiculo2_3
             },
             {
-                id: crypto.randomUUID(),
+                id: 34,
                 image: products_images.cubiculo2_4
             },
             {
-                id: crypto.randomUUID(),
+                id: 35,
                 image: products_images.reunion1_2
             },
         ]
     },
     {
-        id: crypto.randomUUID(),
+        id: 4,
         title: "Oficina para 3 personas",
         subtitle: "Coworking Quito",
         promo: "valido por 3 meses",
@@ -108,27 +108,27 @@ export const products = [
         image: products_images.cubiculo3_1,
         products: [
             {
-                id: crypto.randomUUID(),
+                id: 41,
                 image: products_images.cubiculo3_1
             },
             {
-                id: crypto.randomUUID(),
+                id: 42,
                 image: products_images.cubiculo3_2
             },
             {
-                id: crypto.randomUUID(),
+                id: 43,
                 image: products_images.cubiculo3_3
             },
             {
-                id: crypto.randomUUID(),
+                id: 44,
                 image: products_images.cubiculo3_4
             },
             {
-                id: crypto.randomUUID(),
+                id: 45,
                 image: products_images.cubiculo3_5
             },
             {
-                id: crypto.randomUUID(),
+                id: 46,
                 image: products_images.reunion1_2
             },
         ]
