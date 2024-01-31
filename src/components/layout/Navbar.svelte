@@ -1,6 +1,7 @@
 <script>
   import { items } from "../../constants/menu";
   import menu_burger from "../../assets/icons/menu-burger.svg";
+  import NavbarContactUs from "./NavbarContactUs.svelte";
 
   /**
 /**
@@ -69,6 +70,7 @@
       </ul>
     </section>
   </section>
+  <NavbarContactUs />
 </nav>
 
 <style>

@@ -59,10 +59,10 @@ export const products = [
                 id: 22,
                 image: products_images.cubiculo1_2
             },
-            {
-                id: 23,
-                image: products_images.reunion1_2
-            },
+            // {
+            //     id: 23,
+            //     image: products_images.reunion1_2
+            // },
         ]
     },
     {
@@ -91,17 +91,17 @@ export const products = [
                 id: 34,
                 image: products_images.cubiculo2_4
             },
-            {
-                id: 35,
-                image: products_images.reunion1_2
-            },
+            // {
+            //     id: 35,
+            //     image: products_images.reunion1_2
+            // },
         ]
     },
     {
         id: 4,
         title: "Oficina para 3 personas",
         subtitle: "Coworking Quito",
-        promo: "valido por 3 meses",
+        // promo: "valido por 3 meses",
         description:
             "Una oficina para tres personas con todos los beneficios antes mencionados",
         price: 250,
@@ -127,10 +127,10 @@ export const products = [
                 id: 45,
                 image: products_images.cubiculo3_5
             },
-            {
-                id: 46,
-                image: products_images.reunion1_2
-            },
+            // {
+            //     id: 46,
+            //     image: products_images.reunion1_2
+            // },
         ]
     }
 ];

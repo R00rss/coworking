@@ -20,7 +20,7 @@
 </script>
 
 <section
-  class="flex flex-col justify-start items-center shadow-[2px_2px_10px_-6px_#000000] min-h-[400px] min-w-[350px] w-[350px] aspect-[2/3] 2xl:min-w-[380px] 2xl:w-[380px]"
+  class="flex flex-col justify-start items-center shadow-[2px_2px_10px_-6px_#000000] min-h-[400px] w-full xs:min-w-[350px] xs:w-[350px] aspect-[2/3] 2xl:min-w-[380px] 2xl:w-[380px]"
 >
   <button
     on:click={openPopup}
